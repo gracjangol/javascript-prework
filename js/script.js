@@ -11,8 +11,6 @@ computerResultValue = +document.getElementById('computer-result-value').textCont
 
 function buttonClicked(argButtonName){
   clearMessages();
-  console.log(argButtonName + "został kliknięty");
-
 
 function getMoveName(argMoveId) {
   if (argMoveId == 1) {
