@@ -1,10 +1,8 @@
 /* reset */
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -14,145 +12,152 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: "";
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* global */
-
 section {
-    padding: 80px 0px;
-    display: flex;
-    justify-content: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+  padding: 80px 0px;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .container {
-    width: 450px;
+  width: 450px;
 }
 
 p {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 button {
-    padding: 10px 20px;
-    background: #fff;
-    font-size: 14px;
-    font-weight: 700;
-    border-radius: 12px;
-    border-color: #1c5fa8;
-    border-style: solid;
-    color: #1c5fa8;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: 0.5s;
+  padding: 10px 20px;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 12px;
+  border-color: #1c5fa8;
+  border-style: solid;
+  color: #1c5fa8;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 button:hover {
-    background: #1c5fa8;
-    border-color: #fff;
-    color: #fff;
+  background: #1c5fa8;
+  border-color: #fff;
+  color: #fff;
 }
 
 #buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 #messages {
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
 #messages :nth-child(1) {
-    padding: 20px 0px;
-    font-size: 30px;
+  padding: 20px 0px;
+  font-size: 30px;
 }
 
 #result {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 20px 0px;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0px;
+  flex-wrap: wrap;
 }
 
 .win-result-text {
-    font-size: 30px;
-    padding-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .results {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
 #player-result-container, #computer-result-container {
-    width: 50%;
-    text-align: center;
+  width: 50%;
+  text-align: center;
 }
 
 #player-result-container p:first-child, #computer-result-container p:first-child {
-    font-weight: bold;
-    padding-bottom: 5px;
+  font-weight: bold;
+  padding-bottom: 5px;
 }
 
 .win {
-    color: green;
-    font-weight: bold;
+  color: green;
+  font-weight: bold;
 }
 
 .lose {
-    color: red;
+  color: red;
 }
 
 .draw {
-    color: blue;
+  color: blue;
 }
 
 @media screen and (max-width: 500px) {
-    .container {
-        width: 90%;
-    }
+  .container {
+    width: 90%;
+  }
 }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxVQUFBO0FBRUE7OztDQUFBO0FBS0E7Ozs7Ozs7Ozs7Ozs7RUFhQyxTQUFBO0VBQ0EsVUFBQTtFQUNBLFNBQUE7RUFDQSxlQUFBO0VBQ0EsYUFBQTtFQUNBLHdCQUFBO0FDREQ7O0FER0EsZ0RBQUE7QUFDQTs7RUFFQyxjQUFBO0FDQUQ7O0FERUE7RUFDQyxjQUFBO0FDQ0Q7O0FEQ0E7RUFDQyxnQkFBQTtBQ0VEOztBREFBO0VBQ0MsWUFBQTtBQ0dEOztBRERBOztFQUVDLFdBQUE7RUFDQSxhQUFBO0FDSUQ7O0FERkE7RUFDQyx5QkFBQTtFQUNBLGlCQUFBO0FDS0Q7O0FERkEsV0FBQTtBQUVBO0VBQ0ksaUJBQUE7RUFDQSxhQUFBO0VBQ0EsdUJBQUE7RUFDQSxhQUFBO0VBQ0EsdUJBQUE7RUFDQSxtQkFBQTtBQ0lKOztBRERBO0VBQ0ksWUFBQTtBQ0lKOztBRERBO0VBQ0ksa0NBQUE7QUNJSjs7QUREQTtFQUNJLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxtQkFBQTtFQUNBLHFCQUFBO0VBQ0EsbUJBQUE7RUFDQSxjQUFBO0VBQ0EseUJBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7QUNJSjs7QUREQTtFQUNJLG1CQUFBO0VBQ0Esa0JBQUE7RUFDQSxXQUFBO0FDSUo7O0FEREE7RUFDSSxhQUFBO0VBQ0EsdUJBQUE7RUFDQSxTQUFBO0VBQ0EsZUFBQTtBQ0lKOztBRERBO0VBQ0ksa0JBQUE7RUFDQSxrQ0FBQTtBQ0lKOztBRERBO0VBQ0ksaUJBQUE7RUFDQSxlQUFBO0FDSUo7O0FEREE7RUFDSSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSx1QkFBQTtFQUNBLGdCQUFBO0VBQ0EsZUFBQTtBQ0lKOztBRERBO0VBQ0ksZUFBQTtFQUNBLG9CQUFBO0VBQ0Esa0NBQUE7RUFDQSx5QkFBQTtFQUNBLGlCQUFBO0FDSUo7O0FEREE7RUFDSSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSx1QkFBQTtFQUNBLFdBQUE7QUNJSjs7QUREQTtFQUNJLFVBQUE7RUFDQSxrQkFBQTtBQ0lKOztBRERBO0VBQ0ksaUJBQUE7RUFDQSxtQkFBQTtBQ0lKOztBRERBO0VBQ0ksWUFBQTtFQUNBLGlCQUFBO0FDSUo7O0FEREE7RUFDSSxVQUFBO0FDSUo7O0FEREE7RUFDSSxXQUFBO0FDSUo7O0FEREE7RUFDSTtJQUNJLFVBQUE7RUNJTjtBQUNGIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
