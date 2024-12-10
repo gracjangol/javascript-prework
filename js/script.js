@@ -25,9 +25,6 @@ function getMoveName(argMoveId) {
   }
 }
 
-/**
- * Describe this function...
- */
 function displayResult(argPlayerMove, argComputerMove) {
   if (argPlayerMove == 'papier' && argComputerMove == 'kamień') {
     printMessage('Wygrywasz!');
